@@ -1,0 +1,102 @@
+.mainHomePage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0em;
+}
+
+.mainHomePage h1{
+    font-size: 4rem;
+}
+
+.name {
+    color: #2978b5;
+}
+.desc{
+    width: 600px;
+}
+.mainHomePage h2{
+    font-size: 2rem;
+    margin-top: -5px;
+}
+.btn{
+  padding: 0.8em 1.4em;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: lowercase;
+  border:2px solid blue;
+  margin-right: 1em;
+  cursor: pointer;
+  transition: 1s;
+
+}
+.icon1{
+    width: 30px;
+    height: 30px;
+    color: gray;
+    
+    
+}
+.icon2{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    color: gray;
+}
+.class{
+    margin-top: 4em;
+}
+.h2{
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.icon--hover:hover{
+     color: blue;
+}
+.btn--hover:hover{
+    background-color: blue;
+    color: white;
+    
+}
+.skills-section{
+    
+    margin-top: 5em;
+}
+.section-text{
+    margin-bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.section-contact{
+    margin-top: 3em;
+    text-align: center;
+    
+}
+.contact{
+    text-transform: uppercase;
+    font-weight: 650;
+    
+}
+h2{
+    font-size: 2rem;
+}
+.btn2{
+    padding: 0.8em 1.4em;
+  font-size: 0.9rem;
+  font-weight: 500;
+  
+  border:2px solid blue;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s;
+}
+.created-by{
+    align-items: center;
+    margin:3em 0 3em 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2978b5;
+}

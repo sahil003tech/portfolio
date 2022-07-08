@@ -1,0 +1,31 @@
+    
+    .container{
+        display: flex;
+        align-items: center;
+        height: 8em;
+        max-width: 1100px;
+        width: 95%;
+        margin: 0 auto;
+        justify-content: space-between;
+
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navlist{
+    display: flex;
+    margin-right: 1.5em;
+    list-style-type: none;
+}
+.list-item{
+    margin-left: 1.5em;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: black;
+}
+.list-item:hover{
+    color: blue;
+}
